@@ -1,0 +1,85 @@
+/*header*/
+
+.hautdepage{
+	font-family: impact;
+	font-size: 1em;
+	text-align: center;
+}
+
+
+
+
+/*Formulaire*/
+
+.pseudo, .mail, .facebook, .tel, .date{
+	font-family: impact;
+	font-size: 1em;
+}
+
+.button_ready{
+	font-family: impact;
+	font-size: 2em;
+	box-shadow: 2px 2px 20px black;
+}
+
+.button_ready:hover{
+	box-shadow: none;
+	background-image: url(img/button.jpg);
+}
+
+.formulaire{
+	font-weight: bold;
+	box-shadow: 2px 2px 20px silver;
+}
+
+/*Footer*/
+
+.signature{
+	font-style: italic;
+	font-family: Verdana;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.icons-saber:hover{
+    background-image: url(img/png/saberbis.png);
+}
+
+.icons-deathstar:hover{
+    background-image: url("img/png/deathstarbis.png");
+}
+
+.icons-droid:hover{
+    background-image: url(img/png/droidbis.png);
+}
+
+.icons-empire:hover{
+    background-image: url(img/png/empirebis.png);
+}
+
+.icons-troll:hover{
+	background-image: url(img/png/trollbis.png);
+}
+
+.icons-moon:hover{
+	background-image: url(img/png/moonbis.png);
+}
+.icons-jedi:hover{
+    background-image: url(img/png/jedibis.png);
+}
+
+.icons-falconm:hover{
+	background-image: url(img/png/falconmbis.png);
+}
+
+.icons-tief:hover{
+	background-image: url(img/png/tiefbis.png);
+}
+
+.icons-bb8:hover{
+	background-image: url(img/png/bb8bis.png);
+}
